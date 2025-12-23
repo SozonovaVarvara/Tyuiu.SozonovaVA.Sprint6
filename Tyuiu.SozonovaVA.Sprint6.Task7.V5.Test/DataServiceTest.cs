@@ -7,7 +7,13 @@ namespace Tyuiu.SozonovaVA.Sprint6.Task7.V5.Test
         [TestMethod]
         public void TestMethod1()
         {
-            Assert.AreEqual(1, 1);
+            DataService ds = new DataService();
+            string path = $@"C:\DataSprint6\InPutDataFileTask7V5.csv";
+            if (File.Exists(path))
+            {
+                int[,] result = ds.GetMatrix(path);
+                Assert.IsNotNull(result);
+            }
         }
     }
 }
