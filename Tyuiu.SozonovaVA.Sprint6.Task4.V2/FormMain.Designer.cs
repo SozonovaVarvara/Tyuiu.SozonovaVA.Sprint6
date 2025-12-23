@@ -1,4 +1,4 @@
-﻿namespace Tyuiu.SozonovaVA.Sprint6.Task3.V13
+﻿namespace Tyuiu.SozonovaVA.Sprint6.Task4.V2
 {
     partial class FormMain
     {
@@ -28,16 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            SuspendLayout();
-            // 
-            // FormMain
-            // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Name = "FormMain";
-            Text = "FormMain";
-            ResumeLayout(false);
+            this.components = new System.ComponentModel.Container();
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Text = "Form1";
         }
 
         #endregion
